@@ -5,11 +5,14 @@
     justify-content: space-evenly;
     margin: 0 auto;
   }
-  
+  .members {
+    text-align: center;
+  }
   .card {
     flex: 1 1 45%;
     margin: 40px;
     padding: 16px;
+    color: rgb(9, 9, 104);
     max-width: 300px;
     box-sizing: border-box;
     background-color: #fff; /* White background */
