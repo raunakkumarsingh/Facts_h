@@ -8,9 +8,9 @@ const Navbar = () => {
       <span className="nav-logo"><img width="11%" height="11%" src={logo}/>Facts-H Lab</span>
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="/home">Home</a>
+        <a href="/intro">Intro</a>
         <a href="/whyfactsh">Why Facts-H?</a>
-        <a href="/about">People</a>
-        <a href="/service">Events</a>
+        <a href="/people">People</a>
         <a href="/contact">Contact</a>
       </div>
       <div
