@@ -1,0 +1,41 @@
+/* Footer.css */
+.footer-container {
+    background-color: #98ABEE;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-logos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .logo-left,
+  .logo-right {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .footer-address {
+    margin-bottom: 20px;
+  }
+  
+  .footer-icons {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-copyright {
+    font-size: 14px;
+  }
+  
+  /* Add more styling as needed */
+  
