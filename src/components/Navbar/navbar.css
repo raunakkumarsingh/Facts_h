@@ -1,23 +1,26 @@
 .Navbar {
   height: 60px;
+  overflow:visible;
+  position: relative;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #e4f6ff;
+  background: white;
 }
 
 .Navbar > .nav-logo {
   font-weight: 700;
   font-size: 21px;
   margin: 15px;
-  color: black;
+  color: rgb(19, 19, 73);
 }
 .open{
   z-index: 1;
 }
 
 .Navbar > .nav-items > a {
-  color: black;
+  color: rgb(19, 19, 73);
   font-size: 16px;
   text-decoration: none;
   margin: 15px;
@@ -36,7 +39,7 @@
   bottom: 0;
   width: 0;
   height: 2px;
-  background: #ffffff;
+  background: rgb(19, 19, 73);
   transition: all 0.45s;
 }
 
@@ -57,7 +60,7 @@
     background: white;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     transform: translateX(-100%);
     transition: all .45s;
   }

@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 .App {
   text-align: center;
+  
 }
+
 body{
   /* background-color: #d7edf8; */
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
