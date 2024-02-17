@@ -1,15 +1,8 @@
 import React from 'react';
 import './intro.css';
 import introInfo from './data';
+import LightCard from '../../components/LightCard/LightCard';
 
-const LabComponent = ({ title, description }) => {
-  return (
-    <div className="lab-component">
-      <h2>{title}</h2>
-      <p>{description}</p>
-    </div>
-  );
-};
 
 const Intro = () => {
  
@@ -19,7 +12,7 @@ const Intro = () => {
       <h1>Introduction </h1>
       <div className="lab-info">
         {introInfo.map((item, index) => (
-          <LabComponent key={index} title={item.title} description={item.description} />
+          <LightCard key={index} title={item.title} description={item.description} />
         ))}
       </div>
     </div>
