@@ -3,8 +3,8 @@
 .heading-container {
     display: flex;
     justify-content: center;
-    margin-top: 8rem;
-    margin-bottom: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     align-items: center; /* Ensure full height of the viewport */
   }
   

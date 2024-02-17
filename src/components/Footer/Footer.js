@@ -3,11 +3,12 @@ import React from 'react';
 import './footer.css'; 
 import logo from '../../assets/icons/logo.png'
 import iiitklogo from '../../assets/icons/IIITK_logo.png'
+
 const Footer = () => {
   return (
     <footer className="footer-container">
       <div className="footer-logos">
-        <img src={logo} alt="Left Logo" className="logo-left" />
+       <img src={logo} alt="Left Logo" className="logo-left" />
         <img src={iiitklogo} alt="Right Logo" className="logo-right" />
       </div>
       <div className="footer-address">

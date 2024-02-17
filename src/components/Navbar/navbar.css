@@ -8,6 +8,12 @@
   align-items: center;
   background: white;
 }
+.strong-text{
+  font-weight: bolder;
+  font-size:x-large;
+  text-decoration: none;
+  color: rgb(19, 19, 73);
+}
 
 .Navbar > .nav-logo {
   font-weight: 700;
