@@ -5,7 +5,7 @@ import Heading from '../../components/Heading/Heading'
 function People() {
   return (
     <>
-     <Heading content="Proposed Faculty Members" />
+     <Heading content="Faculty Members" />
       <Card/>
 
     </>

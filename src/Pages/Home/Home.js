@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
         <ImageSlider/>
-        <Heading content="Proposed Faculty Members" />
+        <Heading content="Faculty Members" />
         <Card/>
     </>
   )
