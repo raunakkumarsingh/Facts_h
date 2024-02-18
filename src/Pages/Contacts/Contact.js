@@ -1,13 +1,16 @@
 // Contact.js
 
 import React from 'react';
-import './contact.css'; // Import a separate CSS file for styling
+import './contact.css';
+import Heading from '../../components/Heading/Heading'
 
 const Contact = () => {
   return (
+    <>
+    {/* <Heading content="Contact"/> */}
     <div className="contact-container">
       <div className="contact-card">
-        <h2>Center For Facts H Lab</h2>
+        <h2>Center For FACTS H Lab</h2>
         <div className="contact-info">
           <p><strong>Contact:</strong> Dr. Ebin Deni Raj</p>
           <p><strong>Phone:</strong> +91 (0) 482-2202195</p>
@@ -18,6 +21,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

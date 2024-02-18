@@ -12,7 +12,7 @@ const Card = () => {
         <div className="card" key={index}>
           <img src={require(`../../assets/profile/${profile.image}`)}  alt="Card Image" className="card-image rounded-circle" />
           <h5 className="card-description text-center "><strong>{profile.name}</strong></h5>
-          <h6 className="card-description text-center">{profile.position}</h6>
+          <h6 className="card-description text-center">{profile.designation}</h6>
         
           { 
             <ul className="more-info list-group list-unstyled">
