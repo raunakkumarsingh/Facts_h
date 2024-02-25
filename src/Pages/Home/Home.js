@@ -21,6 +21,7 @@ const ObjectiveCard = ({ title, description }) => {
 };
 
 function Home() {
+  console.log(ProfileData);
   return (
     <>
         <ImageSlider slides={slides} />
@@ -37,7 +38,7 @@ function Home() {
       </div>
     </div>
         <Heading content="Faculty Members" />
-        <Card  ProfileData={ProfileData}/>
+        <Card  ProfileData={ProfileData.Faculty}/>
     </>
   )
 }

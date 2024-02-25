@@ -1,23 +1,27 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
-import logo from '../../assets/icons/logo.png'
-import {Link} from "react-router-dom"
+import logo from '../../assets/icons/logo.png';
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="Navbar fixed-top ">
-    <Link className="strong-text" to="/"> <div className="nav-logo "><img width="11%" height="11%" src={logo}/>FACTS-H LAB</div></Link>
-      <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/home"><strong>Home</strong></a>
-        <a href="/whyfactsh"><strong>Why FACTS-H</strong></a>
-        <a href="/vision"><strong>Vision</strong></a>
-        <a href="/people"><strong>People</strong></a>
-        <a href="/contact"><strong>Contact</strong></a>
+    <div className="Navbar fixed-top">
+      <Link to="/">
+        <div className="nav-logo strong-text">
+          <img src={logo} className="logo" alt="Logo" width="11%" height="11%" />
+          FACTS-H LAB
+        </div>
+      </Link>
+      <div className={`nav-items ${isOpen ? "open" : ""} d-flex `}>
+        <Link to="/home"><strong>Home</strong></Link>
+        <Link to="/whyfactsh"><strong >WhyFACTS-H</strong></Link>
+        <Link to="/vision"><strong>Vision</strong></Link>
+        <Link to="/people"><strong>People</strong></Link>
+        <Link to="/contact"><strong>Contact</strong></Link>
       </div>
-      <div
-        className={`nav-toggle ${isOpen && "open"}`}
-        onClick={() => setIsOpen(!isOpen)}
-      >
+      <div className={`nav-toggle ${isOpen ? "open" : ""}`} onClick={() => setIsOpen(!isOpen)}>
         <div className="bar"></div>
       </div>
     </div>

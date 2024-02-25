@@ -1,6 +1,7 @@
+/* Common styles */
 .Navbar {
   height: 50px;
-  overflow:visible;
+  overflow: visible;
   position: relative;
   margin-bottom: 5px;
   display: flex;
@@ -8,9 +9,15 @@
   align-items: center;
   background: white;
 }
-.strong-text{
+.logo{
+padding: 5px;
+margin-top: 3px;
+}
+
+
+.strong-text {
   font-weight: bolder;
-  font-size:x-large;
+  font-size: x-large;
   text-decoration: none;
   color: rgb(19, 19, 73);
 }
@@ -21,7 +28,8 @@
   margin: 15px;
   color: rgb(19, 19, 73);
 }
-.open{
+
+.open {
   z-index: 1;
 }
 
@@ -57,6 +65,7 @@
   display: none;
 }
 
+/* Responsive styles */
 @media (max-width: 700px) {
   .Navbar > .nav-items {
     position: absolute;
@@ -68,15 +77,15 @@
     width: 100%;
     height: auto;
     transform: translateX(-100%);
-    transition: all .45s;
+    transition: all 0.45s;
   }
 
   .Navbar > .nav-items > a::before {
-      background: transparent;
+    background: transparent;
   }
 
   .Navbar > .nav-items.open {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 
   .Navbar > .nav-toggle {
@@ -120,18 +129,23 @@
   }
 
   .nav-toggle.open > .bar {
-      transform: translateX(-40px);
-      background: transparent;
+    transform: translateX(-40px);
+    background: transparent;
   }
 
   .nav-toggle.open > .bar::before {
-      width: 32px;
-      transform: rotate(45deg) translate(26px, -26px);
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -26px);
   }
 
   .nav-toggle.open > .bar::after {
     transform: rotate(-45deg) translate(26px, 26px);
   }
-
-
+}
+.nav-items{
+  display: flex!important;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
 }

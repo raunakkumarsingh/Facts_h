@@ -6,19 +6,17 @@ function People() {
   return (
     <>
      <Heading content="Faculty Members" />
-      <Card ProfileData={ProfileData}/>
+      <Card ProfileData={ProfileData.Faculty} type="1"/>
       <Heading content="PHD Scholars" />
-      <Card ProfileData={ProfileData}/>
+      <Card ProfileData={ProfileData.PhDScholars} type="0"/>
       <Heading content="M.Tech Students" />
-      <Card ProfileData={ProfileData}/>
+      <Card ProfileData={ProfileData.MTech} type="0"/>
       <Heading content="UG Students" />
-      <Card ProfileData={ProfileData}/>
+      <Card ProfileData={ProfileData.UG} type="0"/>
       <Heading content="Interns" />
-      <Card ProfileData={ProfileData}/>
-      <Heading content="M.Tech Alumni" />
-      <Card ProfileData={ProfileData}/>
-      <Heading content="UG Alumni" />
-      <Card ProfileData={ProfileData}/>
+      <Card ProfileData={ProfileData.Interns} type="0"/>
+      <Heading content="Alumni" />
+      <Card ProfileData={ProfileData.Alumni} type="0"/>
       
     </>
   )
