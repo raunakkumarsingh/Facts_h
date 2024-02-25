@@ -4,6 +4,7 @@
   }
   .slide {
     width: 100%;
+    height: 100%;
     border-radius: 10px;
     background-size: cover;
     background-position: center;
@@ -37,21 +38,19 @@
     cursor: pointer;
     font-size: 20px;
   }
-  
-  .slide {
-    height: 90%; /* Adjust this value as needed */
+  .imgs {
+    height: 500px; /* Adjust this value for smaller screens */
   }
-  
   /* Media query for smaller screens */
   @media only screen and (max-width: 768px) {
-    .slide {
-      height: 80%; /* Adjust this value for smaller screens */
+    .imgs {
+      height: 400px; /* Adjust this value for smaller screens */
     }
   }
   
   /* Media query for even smaller screens */
   @media only screen and (max-width: 480px) {
-    .slide {
+    .imgs {
       height: 50%; /* Adjust this value for even smaller screens */
     }
   }

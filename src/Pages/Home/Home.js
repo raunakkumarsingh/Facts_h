@@ -4,6 +4,7 @@ import Card from '../../components/Card/Card'
 import Heading from '../../components/Heading/Heading'
 import objectives from '../../Content/objective'
 import ProfileData from '../../Content/ProfileData'
+import slides from '../../Content/slide'
 import './home.css'
 
 const ObjectiveCard = ({ title, description }) => {
@@ -22,7 +23,7 @@ const ObjectiveCard = ({ title, description }) => {
 function Home() {
   return (
     <>
-        <ImageSlider/>
+        <ImageSlider slides={slides} />
         <div className='text-center mx-2 p-10'>
          <Heading content="Welcome to the FACTS-H Lab"/>
         </div>
