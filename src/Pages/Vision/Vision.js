@@ -1,11 +1,11 @@
 import React from 'react';
-import './intro.css';
-import introInfo from './data';
+import './vision.css';
+import introInfo from '../../Content/intoInfo'
 import LightCard from '../../components/LightCard/LightCard';
 import Heading from '../../components/Heading/Heading';
 
 
-const Intro = () => {
+const Vision = (props) => {
  
 
   return (
@@ -20,4 +20,4 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default Vision;

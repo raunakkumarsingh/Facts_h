@@ -2,8 +2,8 @@ import React from 'react'
 import ImageSlider from '../../components/ImageSlider/ImageSlider'
 import Card from '../../components/Card/Card'
 import Heading from '../../components/Heading/Heading'
-import LightCard from '../../components/LightCard/LightCard'
-import objectives from './data'
+import objectives from '../../Content/objective'
+import ProfileData from '../../Content/ProfileData'
 import './home.css'
 
 const ObjectiveCard = ({ title, description }) => {
@@ -36,7 +36,7 @@ function Home() {
       </div>
     </div>
         <Heading content="Faculty Members" />
-        <Card/>
+        <Card  ProfileData={ProfileData}/>
     </>
   )
 }

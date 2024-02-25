@@ -7,7 +7,7 @@ import {createBrowserRouter, RouterProvider, Route,Routes, Link, BrowserRouter a
 import Home from './Pages/Home/Home';
 import Contact from './Pages/Contacts/Contact'
 import Why from './Pages/Why/Why'
-import Intro from './Pages/Intro/Intro';
+import Vision from './Pages/Vision/Vision';
 import People from './Pages/People/People';
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={ <Home/> } />
         <Route path="/Home" element={ <Home/> } />
-        <Route path="/Intro" element={ <Intro/> } />
+        <Route path="/Vision" element={ <Vision/> } />
         <Route path="/whyfactsh" element={ <Why/> } />
         <Route path="/contact" element={ <Contact/> } />
         <Route path="/people" element={ <People/> } />

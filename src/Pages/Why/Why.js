@@ -1,6 +1,6 @@
 import React from 'react';
 import './why.css';
-import whyData from './data';
+import whyData from '../../Content/whyData';
 import LightCard from '../../components/LightCard/LightCard';
 import Heading from '../../components/Heading/Heading';
 
