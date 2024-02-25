@@ -1,4 +1,5 @@
-const ProfileData = [
+const ProfileData = {
+  "Faculty": [
   {
     name: "Dr. Ebin Deni Raj",
     email: "ebindeniraj@iiitkottayam.ac.in",
@@ -68,7 +69,220 @@ const ProfileData = [
     position:
       "Post Doc CUSAT, Ph.D. from University of Kerala, Awarded National Post-Doctoral Fellowship, SERB, DST, GOI, former employee HCL Technologies Ltd.",
     research: ["Graph Theory","Network Science","Algorithms"],
-  }
-];
+  }]
+  ,
+  "PhD Scholars": [
+    {
+      name: "Jeena Thomas",
+      linkedin: "",
+      image: "jeena.png",
+      position: "",
+    },
+    {
+      name: "Shahad P",
+      linkedin: "",
+      image: "shahad.png",
+      position: "",
+    },
+    {
+      name: "Ashly Ann Jo",
+      linkedin: "",
+      image: "ashly.png",
+      position: "",
+    },
+    {
+      name: "Remya Raveendran",
+      linkedin: "",
+      image: "remya.png",
+      position: "",
+    },
+    {
+      name: "Mahesh Sasikumar",
+      linkedin: "",
+      image: "mahesh.png",
+      position: "",
+    },
+    {
+      name: "Akarsh Nair",
+      linkedin: "",
+      image: "akarsh.png",
+      position: "",
+    },
+    {
+      name: "Chinju John",
+      linkedin: "",
+      image: "chinju.png",
+      position: "",
+    },
+    {
+      name: "Anitha Ambat",
+      linkedin: "",
+      image: "anitha.png",
+      position: "",
+    },
+    {
+      name: "Ruchi Rani",
+      linkedin: "",
+      image: "ruchi.png",
+      position: "",
+    },
+    {
+      name: "Sreekala",
+      linkedin: "",
+      image: "sreekala.png",
+      position: "",
+    },
+    {
+      name: "Renji R",
+      linkedin: "",
+      image: "renji.png",
+      position: "",
+    },
+    {
+      name: "Akshaya Suresh",
+      linkedin: "",
+      image: "akshaya.png",
+      position: "",
+    },
+    {
+      name: "Sheema Madhusudhanan",
+      linkedin: "",
+      image: "sheema.png",
+      position: "",
+    },
+    {
+      name: "Dhanya P",
+      linkedin: "",
+      image: "dhanya.png",
+      position: "",
+    },
+    {
+      name: "Jisha Mariyam John",
+      linkedin: "",
+      image: "jisha.png",
+      position: "",
+    },
+    {
+      name: "Neethu Krishna",
+      linkedin: "",
+      image: "neetha.png",
+      position: "",
+    },
+    {
+      name: "Julie Sara Benny",
+      linkedin: "",
+      image: "julie.png",
+      position: "",
+    }
+    
+  ]
+  ,
+  "M.Tech": [
+    {
+      name: "Ranjith R",
+      linkedin: "",
+      image: "ranjith.png",
+      position: "",
+    },
+    {
+      name: "Susmera Joseph",
+      linkedin: "",
+      image: "susmera.png",
+      position: "",
+    },
+    {
+      name: "Ijas AH",
+      linkedin: "",
+      image: "ijas.png",
+      position: "",
+    }
+  ],
+  "UG": [
+    {
+      name: "Subodh Uniyal",
+      linkedin: "",
+      image: "subodh.png",
+      position: "",
+    },
+    {
+      name: "Maitri Deepak Savla",
+      linkedin: "",
+      image: "maitri.png",
+      position: "",
+    },
+    {
+      name: "Tushar K",
+      linkedin: "",
+      image: "tushar.png",
+      position: "",
+    },
+    {
+      name: "Dhivyesh",
+      linkedin: "",
+      image: "dhivyesh.png",
+      position: "",
+    },
+    {
+      name: "Anish Reddy Konyala",
+      linkedin: "",
+      image: "anish.png",
+      position: "",
+    }
+  ]
+  ,
+  "Interns": [
+    {
+      name: "Angel Susan Vino",
+      linkedin: "",
+      image: "angel.png",
+      position: "",
+    },
+    {
+      name: "Parvathy V Menon",
+      linkedin: "",
+      image: "parvathy.png",
+      position: "",
+    },
+    {
+      name: "Sikha S",
+      linkedin: "",
+      image: "sikha.png",
+      position: "",
+    }
+  ],
+  "Alumni": [
+    {
+      name: "Thiruthuvaraj Rajshekar ",
+      linkedin: "",
+      image: "thiruthuvaraj.png",
+      position: "",
+    },
+    {
+      name: "Sai Tejashwin Eswarapu",
+      linkedin: "",
+      image: "sai.png",
+      position: "",
+    },
+    {
+      name: "Yashwanth Deshaboina",
+      linkedin: "",
+      image: "yashwanth.png",
+      position: "",
+    },
+    {
+      name: "Seshathri S",
+      linkedin: "",
+      image: "seshathri.png",
+      position: "",
+    },
+    {
+      name: "Bhargawa P",
+      linkedin: "",
+      image: "bhargawa.png",
+      position: "",
+    }
+  ]
+
+};
 
 export default ProfileData;

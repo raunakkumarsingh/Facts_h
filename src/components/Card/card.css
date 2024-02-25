@@ -10,10 +10,11 @@
   }
   .card {
     flex: 1 1 45%;
-    margin: 40px;
+    margin: 10px;
     padding: 16px;
     color: rgb(9, 9, 104);
     max-width: 300px;
+    height: auto;
     box-sizing: border-box;
     background-color: #fff; /* White background */
     border-radius: 8px; /* Rounded corners */
