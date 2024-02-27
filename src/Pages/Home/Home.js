@@ -38,7 +38,7 @@ function Home() {
       </div>
     </div>
         <Heading content="Faculty Members" />
-        <Card  ProfileData={ProfileData.Faculty}/>
+        <Card  ProfileData={ProfileData.Faculty} type="1"/>
     </>
   )
 }
