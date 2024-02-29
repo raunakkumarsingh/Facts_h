@@ -3,6 +3,14 @@
   text-align: center;
   
 }
+.extra-margin{
+margin-top: 50px;
+/* margin-bottom: 25px; */
+}
+.container {
+  text-align: center;
+  padding: 20px;
+}
 
 body{
   /* background-color: #d7edf8; */

@@ -2,12 +2,12 @@
 .Navbar {
   height: 50px;
   overflow: visible;
-  position: relative;
-  margin-bottom: 5px;
+  /* position: relative; */
+  /* margin-bottom: 5px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: white;
+  background:#daf0f6;
 }
 .logo{
 padding: 5px;

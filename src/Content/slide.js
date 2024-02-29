@@ -6,7 +6,7 @@ const slides = [
     name: "lab1.png"
   },
   {
-    name: "iiitkottayam1.jpg",
+    name: "iiitkottayam1.png",
   },
 ];
 export default slides;

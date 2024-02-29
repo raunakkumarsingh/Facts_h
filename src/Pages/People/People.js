@@ -4,7 +4,7 @@ import Heading from '../../components/Heading/Heading'
 import ProfileData from '../../Content/ProfileData'
 function People() {
   return (
-    <>
+    <div className='container'>
      <Heading content="Faculty Members" />
       <Card ProfileData={ProfileData.Faculty} type="1"/>
       <Heading content="PHD Scholars" />
@@ -18,7 +18,7 @@ function People() {
       <Heading content="Alumni" />
       <Card ProfileData={ProfileData.Alumni} type="0"/>
       
-    </>
+    </div>
   )
 }
 

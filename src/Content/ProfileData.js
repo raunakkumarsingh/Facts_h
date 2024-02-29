@@ -87,13 +87,13 @@ const ProfileData = {
     {
       name: "Ashly Ann Jo",
       linkedin: "",
-      image: "ashly.png",
+      image: "ashly.jpg",
       position: "Department of CSE",
     },
     {
       name: "Remya Raveendran",
       linkedin: "",
-      image: "",
+      image: "Remya_Raveendran.jpeg",
       position: "Department of CSE",
     },
     {
@@ -123,7 +123,7 @@ const ProfileData = {
     {
       name: "Ruchi Rani",
       linkedin: "",
-      image: "",
+      image: "Ruchi_Rani.jpeg",
       position: "Department of CSE",
     },
     {
@@ -141,7 +141,7 @@ const ProfileData = {
     {
       name: "Akshaya Suresh",
       linkedin: "",
-      image: "",
+      image: "Akshaya_Suresh.jpeg",
       position: "Department of CSE",
     },
     {
@@ -255,19 +255,19 @@ const ProfileData = {
     {
       name: "Parvathy V Menon",
       linkedin: "",
-      image: "",
+      image: "Parvathy_V_Menon.jpeg",
       position: "Department of CSE",
     },
     {
       name: "Sikha S",
       linkedin: "",
-      image: "",
+      image: "Sikha_S.jpeg",
       position: "Department of CSE",
     },
     {
       name: "Dhimant Morakhia",
       linkedin: "",
-      image: "",
+      image: "Dhimant_Morakhia.jpeg",
       position: "Department of CSE",
     },
   ],
@@ -275,7 +275,7 @@ const ProfileData = {
     {
       name: "Thiruthuvaraj Rajshekar ",
       linkedin: "",
-      image: "",
+      image: "raja.jpeg",
       position: "Department of CSE",
     },
     {
@@ -293,19 +293,19 @@ const ProfileData = {
     {
       name: "Sai Tejashwin Eswarapu",
       linkedin: "",
-      image: "",
+      image: "Sai_Tejashwin_Eswarapu.jpeg",
       position: "Department of CSE",
     },
     {
       name: "Yashwanth Deshaboina",
       linkedin: "",
-      image: "",
+      image: "Yashwanth_Deshaboina.jpeg",
       position: "Department of CSE",
     },
     {
       name: "Seshathri S",
       linkedin: "",
-      image: "",
+      image: "Seshathri_S.jpeg",
       position: "Department of CSE",
     },
     {
