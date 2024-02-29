@@ -74,7 +74,7 @@ const ProfileData = {
   PhDScholars: [
     {
       name: "Jeena Thomas",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/jeena-thomas-456149167/",
       image: "jeena.png",
       position: "Department of CSE",
     },
@@ -86,44 +86,59 @@ const ProfileData = {
     },
     {
       name: "Ashly Ann Jo",
+<<<<<<< HEAD
       linkedin: "",
       image: "ashly.jpg",
+=======
+      linkedin: "https://www.linkedin.com/in/ashly-ann-jo-b18695145/",
+      image: "ashly.png",
+>>>>>>> 0370ca0a87f07aadcfc25702a4d2743ce24c613a
       position: "Department of CSE",
     },
     {
       name: "Remya Raveendran",
+<<<<<<< HEAD
       linkedin: "",
       image: "Remya_Raveendran.jpeg",
+=======
+      linkedin: "https://www.linkedin.com/in/remya-raveendran-7293444a/",
+      image: "",
+>>>>>>> 0370ca0a87f07aadcfc25702a4d2743ce24c613a
       position: "Department of CSE",
     },
     {
       name: "Mahesh Sasikumar",
-      linkedin: "",
+      linkedin: "www.linkedin.com/in/mahesh-sasikumar-iiitk-4606192a3",
       image: "Mahesh_Sasikumar.png",
       position: "Department of CSE",
     },
     {
       name: "Akarsh Nair",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/akarsh-k-nair-03298220b/",
       image: "akarsh.png",
       position: "Department of CSE",
     },
     {
       name: "Chinju John",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/chinju-john-a95876b4/",
       image: "chinju.png",
       position: "Department of CSE",
     },
     {
       name: "Anitha Ambat",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/anitha-ambat-198a36243",
       image: "Anitha_Ambat.png",
       position: "Department of CSE",
     },
     {
       name: "Ruchi Rani",
+<<<<<<< HEAD
       linkedin: "",
       image: "Ruchi_Rani.jpeg",
+=======
+      linkedin: "https://www.linkedin.com/in/ruchi-rani-85873153/",
+      image: "",
+>>>>>>> 0370ca0a87f07aadcfc25702a4d2743ce24c613a
       position: "Department of CSE",
     },
     {
@@ -133,20 +148,25 @@ const ProfileData = {
       position: "Department of CSE",
     },
     {
-      name: "Renji R",
-      linkedin: "",
+      name: "Renji S",
+      linkedin: "https://www.linkedin.com/in/renji-s-157083253/",
       image: "Renji_S.png",
       position: "Department of CSE",
     },
     {
       name: "Akshaya Suresh",
+<<<<<<< HEAD
       linkedin: "",
       image: "Akshaya_Suresh.jpeg",
+=======
+      linkedin: "https://www.linkedin.com/in/akshaya-suresh-39a63b18a/",
+      image: "",
+>>>>>>> 0370ca0a87f07aadcfc25702a4d2743ce24c613a
       position: "Department of CSE",
     },
     {
       name: "Sheema Madhusudhanan",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/sheema-madhusudhanan-83410825b",
       image: "Sheema_Madhusudhanan.png",
       position: "Department of CSE",
     },
@@ -158,25 +178,25 @@ const ProfileData = {
     },
     {
       name: "Jisha Mariyam John",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/jisha-mariyam-john-14575294/",
       image: "JISHA_MARIYAM_JOHN.png",
       position: "Department of CSE",
     },
     {
       name: "Neethu Krishna",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/neethu-krishna-29b667235",
       image: "Neethu_Krishna.png",
       position: "Department of CSE",
     },
     {
       name: "Julie Sara Benny",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/julie-sara-benny-b60698237/",
       image: "Julie Sara Benny.png",
       position: "Department of CSE",
     },
     {
       name: "Helena Thomas",
-      linkedin: "",
+      linkedin: "www.linkedin.com/in/helena-thomas-b15081114",
       image: "Helena_Thomas.png",
       position: "Department of CSE",
     },
@@ -184,25 +204,25 @@ const ProfileData = {
   MTech: [
     {
       name: "Ranjith R",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/ranjith-r-3656aa10b/",
       image: "",
       position: "Department of CSE",
     },
     {
       name: "Susmera Joseph",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/susmera-joseph-769a3937/",
       image: "SUSMERA_JOSEPH.png",
       position: "Department of CSE",
     },
     {
       name: "Ijas AH",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/ijas-ah/",
       image: "Ijas_A_H.png",
       position: "Department of CSE",
     },
     {
       name: "Selvaraj Mariyappan",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/selvaraj-mariyappan-12629864/",
       image: "SELVARAJ_MARIYAPPAN.png",
       position: "Department of CSE",
     },
@@ -210,37 +230,37 @@ const ProfileData = {
   UG: [
     {
       name: "Subodh Uniyal",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/subodh7300/",
       image: "SUBODH_UNIYAL.png",
       position: "Department of CSE",
     },
     {
       name: "Maitri Deepak Savla",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/maitri-savla-a5544b229",
       image: "MAITRI_DEEPAK_SAVLA.png",
       position: "Department of CSE",
     },
     {
       name: "Tushar K",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/tushaar9560",
       image: "TUSHAAR.png",
       position: "Department of CSE",
     },
     {
       name: "Dhivyesh",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/dhivyesh-rk/",
       image: "DHIVYESH_R_K.png",
       position: "Department of CSE",
     },
     {
       name: "Anish Reddy Konyala",
-      linkedin: "",
+      linkedin: "https://linkedin.com/in/anish-reddy-konyala-9496ab229/",
       image: "KONYALA_ANISH_REDDY.png",
       position: "Department of CSE",
     },
     {
       name: "Kashyap Chandra",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/kashyap-chandra-7a1132218",
       image: "kashyap_chandra.png",
       position: "Department of CSE",
     },
@@ -248,64 +268,94 @@ const ProfileData = {
   Interns: [
     {
       name: "Angel Susan Vino",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/angel-susan-vino-1920931b8/",
       image: "",
       position: "Department of CSE",
     },
     {
       name: "Parvathy V Menon",
+<<<<<<< HEAD
       linkedin: "",
       image: "Parvathy_V_Menon.jpeg",
+=======
+      linkedin: "https://www.linkedin.com/in/parvathy-menon-92a160218/",
+      image: "",
+>>>>>>> 0370ca0a87f07aadcfc25702a4d2743ce24c613a
       position: "Department of CSE",
     },
     {
       name: "Sikha S",
+<<<<<<< HEAD
       linkedin: "",
       image: "Sikha_S.jpeg",
+=======
+      linkedin: "https://www.linkedin.com/in/sikha-s-43b2b2231/",
+      image: "",
+>>>>>>> 0370ca0a87f07aadcfc25702a4d2743ce24c613a
       position: "Department of CSE",
     },
     {
       name: "Dhimant Morakhia",
+<<<<<<< HEAD
       linkedin: "",
       image: "Dhimant_Morakhia.jpeg",
+=======
+      linkedin: "https://www.linkedin.com/in/dhimant-morakhia/",
+      image: "",
+>>>>>>> 0370ca0a87f07aadcfc25702a4d2743ce24c613a
       position: "Department of CSE",
     },
   ],
   Alumni: [
     {
-      name: "Thiruthuvaraj Rajshekar ",
+      name: "Thiruthuvaraj Rajshekar",
       linkedin: "",
       image: "raja.jpeg",
       position: "Department of CSE",
     },
     {
       name: "Bhagya J",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/bhagya-j-589237125",
       image: "Bhagya_J.png",
       position: "Department of CSE",
     },
     {
       name: "Amal Das",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/amal-das-4006b482/",
       image: "Amal_Das.png",
       position: "Department of CSE",
     },
     {
       name: "Sai Tejashwin Eswarapu",
+<<<<<<< HEAD
       linkedin: "",
       image: "Sai_Tejashwin_Eswarapu.jpeg",
+=======
+      linkedin: "https://www.linkedin.com/in/sai-tejashwin/",
+      image: "",
+>>>>>>> 0370ca0a87f07aadcfc25702a4d2743ce24c613a
       position: "Department of CSE",
     },
     {
       name: "Yashwanth Deshaboina",
+<<<<<<< HEAD
       linkedin: "",
       image: "Yashwanth_Deshaboina.jpeg",
+=======
+      linkedin: "https://www.linkedin.com/in/yashwanth-deshaboina-1799471b0/",
+      image: "",
+>>>>>>> 0370ca0a87f07aadcfc25702a4d2743ce24c613a
       position: "Department of CSE",
     },
     {
       name: "Seshathri S",
+<<<<<<< HEAD
       linkedin: "",
       image: "Seshathri_S.jpeg",
+=======
+      linkedin: "https://www.linkedin.com/in/seshathri-s-32a5281a5/",
+      image: "",
+>>>>>>> 0370ca0a87f07aadcfc25702a4d2743ce24c613a
       position: "Department of CSE",
     },
     {
@@ -316,7 +366,7 @@ const ProfileData = {
     },
     {
       name: "Nithin A",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/nithin-a-19635520a",
       image: "A_Nithin.png",
       position: "Department of CSE",
     },
