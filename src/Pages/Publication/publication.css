@@ -1,0 +1,39 @@
+.app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .papers-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .papers-table th, .papers-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .papers-table th {
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .papers-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .papers-table tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .papers-table tbody td {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  

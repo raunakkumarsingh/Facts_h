@@ -9,7 +9,7 @@ import Contact from './Pages/Contacts/Contact'
 import Why from './Pages/Why/Why'
 import Vision from './Pages/Vision/Vision';
 import People from './Pages/People/People';
-
+import Publication from './Pages/Publication/Publication'
 const App = () => {
   return (
     <Router>
@@ -20,7 +20,8 @@ const App = () => {
         <Route path="/" element={ <Home/> } />
         <Route path="/Home" element={ <Home/> } />
         <Route path="/Vision" element={ <Vision/> } />
-        <Route path="/whyfactsh" element={ <Why/> } />
+        <Route path="/whyfactsh" element={ <Why/> } /> 
+        <Route path="/publication" element={ <Publication/> } /> 
         <Route path="/contact" element={ <Contact/> } />
         <Route path="/people" element={ <People/> } />
        

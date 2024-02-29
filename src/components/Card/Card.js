@@ -10,7 +10,7 @@ const Card = (props) => {
     <div className="card-container">
       {props.ProfileData.map((profile, index) => ( 
         <div className="card" key={index}>
-        {props.type=="0"?<img src={require(`../../assets/profile/avatar.png`)}  alt="Card Image" className="card-image rounded-circle" />:<img src={require(`../../assets/profile/${profile.image}`)}  alt="Card Image" className="card-image rounded-circle" />}
+        {props.type=="0" ?<img src={require(`../../assets/profile/${profile.image.length!=0?profile.image:"avatar.png"}`)}  alt="Card Image" className="card-image rounded-circle" />:<img src={require(`../../assets/profile/${profile.image}`)}  alt="Card Image" className="card-image rounded-circle" />}
           <h5 className="card-description text-center "><strong>{profile.name}</strong></h5>
           <h6 className="card-description text-center">{props.type=="1"?profile.designation:profile.position}</h6>
         
