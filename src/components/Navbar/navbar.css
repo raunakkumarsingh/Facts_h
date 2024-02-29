@@ -1,6 +1,6 @@
 /* Common styles */
 .Navbar {
-  height: 50px;
+  height: 70px;
   overflow: visible;
   /* position: relative; */
   /* margin-bottom: 5px; */
@@ -72,7 +72,7 @@ margin-top: 3px;
     top: 60px;
     display: flex;
     flex-direction: column;
-    background: white;
+    background: #daf0f6;
     left: 0;
     width: 100%;
     height: auto;
