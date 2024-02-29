@@ -3,10 +3,10 @@ const slides = [
     name: "banner1.png",
   },
   {
-    name: "lab1.png"
+    name: "lab2.png"
   },
   {
-    name: "iiitkottayam1.png",
+    name: "iiitkottayam2.png",
   },
 ];
 export default slides;
