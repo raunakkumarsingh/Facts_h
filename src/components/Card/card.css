@@ -16,7 +16,7 @@
     max-width: 300px;
     height: auto;
     box-sizing: border-box;
-    background-color: #fff; /* White background */
+    background-color: #a7b3ff; /* White background */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light black shadow */
   }
@@ -26,6 +26,8 @@
     height: auto;
     max-width: 100%;
     display: block;
+    aspect-ratio: 1/1;
+    object-fit:fill;
   }
   
   .card-description {
@@ -40,7 +42,7 @@
   
   .more-info {
     margin-top: 10px;
-    background-color: #f9f9f9;
+    background-color: #a7b3ff;
     padding: 10px;
     border: 1px solid #ddd;
   }

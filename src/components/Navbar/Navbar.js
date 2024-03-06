@@ -16,10 +16,10 @@ const Navbar = () => {
       </Link>
       <div className={`nav-items ${isOpen ? "open" : ""} d-flex `}>
         <Link to="/home"><strong>Home</strong></Link>
-        <Link to="/whyfactsh"><strong >WhyFACTS-H</strong></Link>
+        {/* <Link to="/whyfactsh"><strong >WhyFACTS-H</strong></Link> */}
         <Link to="/vision"><strong>Vision</strong></Link>
-        <Link to="/fundproject"><strong>Funded Project</strong></Link>
-        <Link to="/publication"><strong>Publication</strong></Link>
+        <Link to="/fundproject"><strong>Projects</strong></Link>
+        <Link to="/publication"><strong>Publications</strong></Link>
         <Link to="/people"><strong>People</strong></Link>
         <Link to="/contact"><strong>Contact</strong></Link>
       </div>

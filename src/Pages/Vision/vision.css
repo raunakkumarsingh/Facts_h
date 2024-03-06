@@ -15,6 +15,7 @@ body {
   } */
   
   .lab-info {
+    /* background-color: #a3a5f8; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

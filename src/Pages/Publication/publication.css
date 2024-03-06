@@ -16,24 +16,52 @@
     border-bottom: 1px solid #ddd;
   }
   
-  .papers-table th {
-    background-color: #f2f2f2;
+  .papers-table  th {
+    font-size: larger;
+    background-color: #001257; 
     text-transform: uppercase;
     font-size: 14px;
-    color: #333;
+    color: #bfd7ee; 
   }
+   
   
   .papers-table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #9ec8ff;
+  }
+  .papers-table tbody tr:nth-child(odd) {
+    background-color: #bbcee8;
   }
   
   .papers-table tbody tr:hover {
-    background-color: #f0f0f0;
+    background-color: #000000 !important;
+    
   }
   
   .papers-table tbody td {
-    font-size: 14px;
+    font-size: 20px;
     color: #555;
   }
-  
+  .papers-table tbody td {
+    padding: 30px;
+  }
+
+  @media (max-width: 1000px) {
+    .papers-table td:nth-child(3), .papers-table th:nth-child(3) {
+      display: none;
+    }
+    .papers-table tbody td {
+      padding: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    .papers-table td:nth-child(3), .papers-table th:nth-child(3) {
+      display: none;
+    }
+    .papers-table td:nth-child(5), .papers-table th:nth-child(5) {
+      display: none;
+    }
+    .papers-table tbody td {
+      padding:10px;
+    }
+  }
   

@@ -1,39 +1,70 @@
 .pro {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .project-table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid #ddd;
-    margin-top: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  .project-table th, .project-table td {
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .project-table th {
-    background-color: #f2f2f2;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #333;
-  }
-  
-  .project-table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  .project-table tbody tr:hover {
-    background-color: #f0f0f0;
-  }
-  
+  text-align: center;
+  padding: 20px;
+}
+
+.collaborator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+
+
+.collaborator-container img {
+  margin: 10px;
+  max-width: 50rem;
+  max-height: 10rem;
+}
+
+.project-table {
+  width: 100%;
+  border: 2px solid #ddd;
+  margin-top: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-table th,
+.project-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.project-table th {
+  background-color: #001257; 
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #bfd7ee; 
+}
+
+.project-table tbody tr:nth-child(even) {
+  background-color: #9ec8ff;
+}
+.project-table tbody tr:nth-child(odd) {
+  background-color: #bbcee8;
+}
+
+.project-table tbody tr:hover {
+  background-color: #000000 !important;
+}
+
+.project-table tbody td {
+  font-size: 20px;
+  color: #555;
+}
+
+.project-table tbody tr {
+  height: 50px; 
+}
+
+.project-table tbody td {
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
   .project-table tbody td {
-    font-size: 14px;
-    color: #555;
+    padding: 10px;
   }
-  
-  
+}
