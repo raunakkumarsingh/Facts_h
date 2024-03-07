@@ -1,0 +1,11 @@
+.image-card {
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .image-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  

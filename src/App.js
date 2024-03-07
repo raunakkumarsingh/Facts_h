@@ -11,6 +11,7 @@ import Vision from './Pages/Vision/Vision';
 import People from './Pages/People/People';
 import Publication from './Pages/Publication/Publication'
 import FundProject from './Pages/Fundproject/FundProject';
+import Gallery from './Pages/Gallery/Gallery';
 const App = () => {
   return (
     <Router>
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/fundproject" element={ <FundProject/> } /> 
         <Route path="/publication" element={ <Publication/> } /> 
         <Route path="/contact" element={ <Contact/> } />
+        <Route path="/gallery" element={ <Gallery/> } />
         <Route path="/people" element={ <People/> } />
        
       </Routes>

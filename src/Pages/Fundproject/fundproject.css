@@ -46,8 +46,10 @@
   background-color: #bbcee8;
 }
 
-.project-table tbody tr:hover {
+
+.project-table tbody tr:hover td {
   background-color: #000000 !important;
+  color: white;   
 }
 
 .project-table tbody td {

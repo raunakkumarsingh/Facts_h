@@ -21,6 +21,7 @@ const Navbar = () => {
         <Link to="/fundproject"><strong>Projects</strong></Link>
         <Link to="/publication"><strong>Publications</strong></Link>
         <Link to="/people"><strong>People</strong></Link>
+        <Link to="/gallery"><strong>Gallery</strong></Link>
         <Link to="/contact"><strong>Contact</strong></Link>
       </div>
       <div className={`nav-toggle ${isOpen ? "open" : ""}`} onClick={() => setIsOpen(!isOpen)}>

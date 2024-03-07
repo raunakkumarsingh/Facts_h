@@ -27,10 +27,11 @@ body {
   }
   
   .lab-component h2 {
-    color: #333;
+    color:#070081;
   }
   
   .lab-component p {
-    color: #666;
+    color: #000000;
+    font-size: 20px;
   }
   

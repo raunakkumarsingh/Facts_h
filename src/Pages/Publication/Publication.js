@@ -22,7 +22,7 @@ const Publication = () => {
       </thead>
       <tbody>
         {papers.map((paper, index) => (
-          <tr key={index}>
+          <tr key={index} onclick="window.location.href='google.com'">
             <td>{paper.title}</td>
             <td>{paper.authors.join(", ")}</td>
             <td>{paper.conference}</td>

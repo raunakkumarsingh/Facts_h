@@ -32,9 +32,13 @@
     background-color: #bbcee8;
   }
   
-  .papers-table tbody tr:hover {
+  /* .papers-table tbody tr:hover {
     background-color: #000000 !important;
     
+  } */
+  .papers-table tbody tr:hover td {
+    background-color: #000000 !important;
+    color: white;   
   }
   
   .papers-table tbody td {
