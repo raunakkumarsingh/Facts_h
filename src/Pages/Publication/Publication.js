@@ -16,8 +16,8 @@ const Publication = () => {
           <tr>
             <th>Title</th>
             <th>Authors</th>
-            <th>Conference</th>
-            <th>Publisher/Journal</th>
+            <th>Conference/Journal</th>
+            <th>Publisher</th>
             <th>Year</th>
           </tr>
         </thead>
