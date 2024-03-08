@@ -192,25 +192,25 @@ const ProfileData = {
       name: "Ranjith R",
       linkedin: "https://www.linkedin.com/in/ranjith-r-3656aa10b/",
       image: "ranjith.png",
-      position: "ML Engineer",
+      position: "ML Engineer @ IBS Software ",
     },
     {
       name: "Susmera Joseph",
       linkedin: "https://www.linkedin.com/in/susmera-joseph-769a3937/",
       image: "SUSMERA_JOSEPH.png",
-      position: "Full Stack Developer",
+      position: "Full Stack Developer @DEWA Centre",
     },
     {
       name: "Ijas AH",
       linkedin: "https://www.linkedin.com/in/ijas-ah/",
       image: "Ijas_A_H.png",
-      position: "Deep Learning Engineer",
+      position: "Deep Learning Engineer @cognizant",
     },
     {
       name: "Selvaraj Mariyappan",
       linkedin: "https://www.linkedin.com/in/selvaraj-mariyappan-12629864/",
       image: "SELVARAJ_MARIYAPPAN.png",
-      position: "Solution Architect",
+      position: "Solution Architect @ Vantiva",
     },
   ],
   UG: [
@@ -218,63 +218,99 @@ const ProfileData = {
       name: "Subodh Uniyal",
       linkedin: "https://www.linkedin.com/in/subodh7300/",
       image: "SUBODH_UNIYAL.png",
-      position: "Machine Learning Intern",
+      position: "CSE",
     },
     {
       name: "Maitri Deepak Savla",
       linkedin: "https://www.linkedin.com/in/maitri-savla-a5544b229",
       image: "MAITRI_DEEPAK_SAVLA.png",
-      position: "Research Intern ",
+      position: "CSE",
     },
     {
       name: "Tushar K",
       linkedin: "https://www.linkedin.com/in/tushaar9560",
       image: "TUSHAAR.png",
-      position: "Deep Learning Intern",
+      position: "CSE",
     },
     {
       name: "Dhivyesh",
       linkedin: "https://www.linkedin.com/in/dhivyesh-rk/",
       image: "DHIVYESH_R_K.png",
-      position: "SDE (GenAI)",
+      position: "CSE",
     },
     {
       name: "Anish Reddy Konyala",
       linkedin: "https://linkedin.com/in/anish-reddy-konyala-9496ab229/",
       image: "KONYALA_ANISH_REDDY.png",
-      position: "ML and AI",
+      position: "CSE",
     },
     {
       name: "Kashyap Chandra",
       linkedin: "https://www.linkedin.com/in/kashyap-chandra-7a1132218",
       image: "kashyap_chandra.png",
-      position: "SDE Intern",
+      position: "CSE",
     },
   ],
   Interns: [
     {
+      name:"Arundhathi Nair S",
+      linkedin:"https://www.linkedin.com/in/arundhathi-nair-s/",
+      image:"arundh.png",
+      position:""
+    },
+    {
+      name:"Caina Rose Paul",
+      linkedin:"https://www.linkedin.com/in/caina-rose-paul-4b96521ab/",
+      image:"caina.png",
+      position:""
+    },
+    {
+      name:"Navya S Raj",
+      linkedin:"https://www.linkedin.com/in/navya-s-raj-926602202/",
+      image:"navya.png",
+      position:""
+    },
+    {
+      name:"Revathy Sanil",
+      linkedin:"https://www.linkedin.com/in/revathy-sanil-b1905a226/",
+      image:"revathy.png",
+      position:""
+    },
+    {
+      name:"Evana Elsa Bose",
+      linkedin:"https://www.linkedin.com/in/evana-elsa-bose/",
+      image:"evana.png",
+      position:""
+    },
+    {
+      name:"Mariya John",
+      linkedin:"",
+      image:"mariya.png",
+      position:""
+    },
+    {
       name: "Angel Susan Vino",
       linkedin: "https://www.linkedin.com/in/angel-susan-vino-1920931b8/",
       image: "",
-      position: "Business Analytics and Data Analytics",
+      position: "",
     },
     {
       name: "Parvathy V Menon",
       linkedin: "https://www.linkedin.com/in/parvathy-menon-92a160218/",
       image: "Parvathy_V_Menon.jpeg",
-      position: "Research Intern ",
+      position: "",
     },
     {
       name: "Sikha S",
       linkedin: "",
       image: "Sikha_S.jpeg",
-      position: "Data Analyst Intern",
+      position: "",
     },
     {
       name: "Dhimant Morakhia",
       linkedin: "https://www.linkedin.com/in/dhimant-morakhia/",
       image: "Dhimant_Morakhia.jpeg",
-      position: "Data Science Intern",
+      position: "",
     },
   ],
   Alumni: [
@@ -288,19 +324,19 @@ const ProfileData = {
       name: "Bhagya J",
       linkedin: "https://www.linkedin.com/in/bhagya-j-589237125",
       image: "Bhagya_J.png",
-      position: "Senior Software Engineer(AI)",
+      position: "Senior Software Engineer(AI) @QuEST Global",
     },
     {
       name: "Amal Das",
       linkedin: "https://www.linkedin.com/in/amal-das-4006b482/",
       image: "Amal_Das.png",
-      position: "Senior Software Engineer",
+      position: "Senior Software Engineer @AppViewX",
     },
     {
       name: "Sai Tejashwin Eswarapu",
       linkedin: "",
       image: "Sai_Tejashwin_Eswarapu.jpeg",
-      position: "Software Engineer",
+      position: "SDE @Perfios",
     },
     {
       name: "Yashwanth Deshaboina",
@@ -312,7 +348,7 @@ const ProfileData = {
       name: "Seshathri S",
       linkedin: "https://www.linkedin.com/in/seshathri-s-32a5281a5/",
       image: "Seshathri_S.jpeg",
-      position: "Associate Software Engineer",
+      position: "Associate Software Engineer @Palo Alto Networks",
     },
     {
       name: "Bhargawa P",
@@ -324,7 +360,7 @@ const ProfileData = {
       name: "Nithin A",
       linkedin: "https://www.linkedin.com/in/nithin-a-19635520a",
       image: "A_Nithin.png",
-      position: "Software engineer",
+      position: "Software engineer @QBurst",
     },
   ],
 };
