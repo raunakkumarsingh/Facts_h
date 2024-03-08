@@ -13,7 +13,7 @@ const FundProject = () => {
           <img className='collab' key={index} src={require(`../../assets/icons/${data.image}`)} alt="Collaborator Logo" /> 
         ))}
       </div>
-      <Heading content="Funded Project"/>
+      <Heading content="Funded Projects"/>
       <div className="table-container">
         <table className="project-table">
           <thead>

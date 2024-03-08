@@ -12,6 +12,16 @@ const ImageSlider = ({ slides }) => {
     return () => clearInterval(interval);
   }, [slides.length]);
 
+  const goToNextSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
+  };
+
+  const goToPrevSlide = () => {
+    setCurrentSlide((prevSlide) =>
+      prevSlide === 0 ? slides.length - 1 : prevSlide - 1
+    );
+  };
+
   return (
     <div
       id="carouselExampleIndicators"
@@ -52,6 +62,7 @@ const ImageSlider = ({ slides }) => {
         type="button"
         data-bs-target="#carouselExampleIndicators"
         data-bs-slide="prev"
+        onClick={goToPrevSlide}
       >
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
@@ -61,6 +72,7 @@ const ImageSlider = ({ slides }) => {
         type="button"
         data-bs-target="#carouselExampleIndicators"
         data-bs-slide="next"
+        onClick={goToNextSlide}
       >
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>

@@ -1,5 +1,8 @@
 const slides = [
   {
+    name: "visit1.jpg",
+  },
+  {
     name: "banner1.png",
   },
   {

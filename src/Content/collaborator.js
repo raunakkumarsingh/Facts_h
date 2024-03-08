@@ -1,6 +1,6 @@
 const collaborator =[{
     name:"MSME",
-    image:"msme.png"
+    image:"iit palakkad.jpeg"
 },
 {
     name:"mozilla",
