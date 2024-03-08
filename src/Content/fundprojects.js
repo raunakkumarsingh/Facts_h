@@ -6,8 +6,14 @@ const fundProjects = [
       duration: "3 years"
     },
     {
-      fundingAgency: "Technology Innovation Hub, IIT Palakkad",
+      fundingAgency: "IIT Palakkad",
       title: "Doctoral student Fellowship [Recipient Dr Divya SindhuLekha]",
+      amount: "₹ 2184000",
+      duration: "5 years"
+    },
+    {
+      fundingAgency: "IIT Palakkad",
+      title: "Doctoral student Fellowship[ Recipient Dr Ebin Deni Raj]",
       amount: "₹ 2184000",
       duration: "5 years"
     },
