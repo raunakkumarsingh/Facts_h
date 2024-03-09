@@ -65,8 +65,15 @@
   padding: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .project-table tbody td {
     padding: 10px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .project-table tbody td {
+    padding: 7px;
+    font-size: 12px;
   }
 }

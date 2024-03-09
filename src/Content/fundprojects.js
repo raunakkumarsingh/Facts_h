@@ -13,7 +13,7 @@ const fundProjects = [
     },
     {
       fundingAgency: "IIT Palakkad",
-      title: "Doctoral student Fellowship[ Recipient Dr Ebin Deni Raj]",
+      title: "Doctoral student Fellowship [Recipient Dr Ebin Deni Raj]",
       amount: "₹ 2184000",
       duration: "5 years"
     },

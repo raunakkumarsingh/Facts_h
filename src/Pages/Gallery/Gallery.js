@@ -14,7 +14,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="app">
+    <div className="gallery">
       <Heading content="Gallery" />
       <Masonry
       breakpointCols={breakpointColumnsObj}

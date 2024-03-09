@@ -2,8 +2,6 @@
 .Navbar {
   height: 70px;
   overflow: visible;
-  /* position: relative; */
-  /* margin-bottom: 5px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -148,4 +146,9 @@ margin-top: 3px;
 }
 a{
   text-decoration: none;
+}
+
+.nav-logo img{
+  width: 70px;
+  height: 70px;
 }

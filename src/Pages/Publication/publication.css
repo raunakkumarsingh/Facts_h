@@ -68,6 +68,14 @@
     }
     .papers-table tbody td {
       padding:10px;
+      font-size:15px;
+    }
+  }
+  @media (max-width: 470px) {
+   
+    .papers-table tbody td {
+      padding:10px;
+      font-size:10px;
     }
   }
   

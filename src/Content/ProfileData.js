@@ -303,7 +303,7 @@ const ProfileData = {
     {
       name: "Sikha S",
       linkedin: "",
-      image: "Sikha_S.jpeg",
+      image: "",
       position: "",
     },
     {

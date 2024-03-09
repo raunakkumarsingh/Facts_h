@@ -1,14 +1,14 @@
 const collaborator =[{
-    name:"MSME",
-    image:"iit palakkad.jpeg"
+    name:"volkswagen",
+    image:"volkswagen.jpg"
 },
 {
     name:"mozilla",
     image:"mozilla.jpg"
 },
 {
-    name:"volkswagen",
-    image:"volkswagen.jpg"
+    name:"iiit palakkad",
+    image:"iit palakkad.jpeg"
 },
 
 ]
