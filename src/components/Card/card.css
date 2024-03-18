@@ -16,9 +16,14 @@
     max-width: 300px;
     height: auto;
     box-sizing: border-box;
-    background-color: #a7b3ff; /* White background */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light black shadow */
+    background-color: #a7b3ff; 
+    /* border-radius: 8px;  */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Light black shadow; */
+
+    border-radius: 25px;
+background: #a3a5f8;
+box-shadow:  10px 10px 30px #8b8cd3,
+             -10px -10px 30px #bbbeff;
   }
   
   .card-image {

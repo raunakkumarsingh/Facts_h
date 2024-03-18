@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-import "./card.css"; // Import your CSS file
-import ArrowIcon from "../../assets/icons/ArrowIcon.svg";
+import React from "react";
+import "./card.css";
 import linkedin from "../../assets/icons/linkedin.svg";
-import website from "../../assets/icons/website.svg";
 import mail from "../../assets/icons/mail.svg";
 
 const Card = (props) => {
