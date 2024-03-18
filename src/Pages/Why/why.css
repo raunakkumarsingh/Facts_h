@@ -16,22 +16,6 @@ body {
     justify-content: center;
   }
   
-  .lab-component {
-    background-color: #a3a5f8;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px;
-    flex: 1 1 300px;
-    font-size: 20px;
-  }
+
   
-  .lab-component h2 {
-    color:#070081;
-  }
-  
-  .lab-component p {
-    color: #000000;
-    font-size: 20px;
-  }
   

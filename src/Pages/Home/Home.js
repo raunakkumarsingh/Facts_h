@@ -30,7 +30,7 @@ const Internship = () => {
       
       
       <div className="section">
-          <p className="text-center">"FACTS-HI' emphasizes a fact-based, ethical approach, integrating key principles of fairness, accountability, and transparency in computing, while also acknowledging the critical role of sociology and humanities.</p>
+          <p className="text-center">"FACTS-H' emphasizes a fact-based, ethical approach, integrating key principles of fairness, accountability, and transparency in computing, while also acknowledging the critical role of sociology and humanities.</p>
         </div>
       <div className="left-column">
         <div className="section">
@@ -48,7 +48,7 @@ const Internship = () => {
           <ul>
             <li>Ebin Deni Raj (0482-2202195)</li>
             <li>Dr. Arun Cyril Jose (0482-2202159)</li>
-            <li>Dr. Divya Sindhu Lekha (04822202161)</li>
+            <li>Dr. Divya Sindhu Lekha (0482-2202161)</li>
             <li>Dr. Gayathri G. R (0482-2202184)</li>
             <li>Dr. Jayakrushna Sahoo (0482-2202190)</li>
             <li>Josit Mariya (0482-2202203)</li>
@@ -69,7 +69,7 @@ const Internship = () => {
           <h3>Eligibility Criteria</h3>
           <ul>
             <li>Undergraduate: B.Tech./B.E./B.Sc./BCA/B.A</li>
-            <li>Postgraduate: M.Tech./ME/MSc./MCA/M</li>
+            <li>Postgraduate: M.Tech./ME/MSc./MCA/MA</li>
           </ul>
         </div>
         <div className="section">
@@ -77,8 +77,8 @@ const Internship = () => {
           <ul>
             <li>Mode of Internship: Hybrid</li>
             <li>Duration: 8 to 12 weeks</li>
-            <li>Application Deadline: April 15, 2024</li>
-            <li>Internship Commences on: April 22, 2024</li>
+            <li>Application Deadline: 5 April 2024</li>
+            <li>Internship Commences on: 22 April 2024</li>
             <li>Internship fee: 5000/-</li>
             <li>Payment link: <a href="https://www.onlinesbi.sbi/sbicollect/">Pay&nbsp;Now</a></li>
             <li>(Educational Institute &#8594; III KOTTAYAM &#8594; Summer Internship 2024 FACTS-H Lab )</li>

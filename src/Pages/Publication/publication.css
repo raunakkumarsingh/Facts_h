@@ -8,10 +8,14 @@
     border-collapse: collapse;
     border: 1px solid #ddd;
     margin-top: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+    border-radius: 10px;
+  background: #a3a5f8;
+  box-shadow: 10px 10px 30px #8b8cd3, -10px -10px 30px #bbbeff;
   }
   
   .papers-table th, .papers-table td {
+    
     padding: 12px;
     border-bottom: 1px solid #ddd;
   }
