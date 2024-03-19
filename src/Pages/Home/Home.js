@@ -46,12 +46,12 @@ const Internship = () => {
         <div className="section">
           <h3>Faculty</h3>
           <ul>
-            <li>Ebin Deni Raj (0482-2202195)</li>
+            <li>Dr. Ebin Deni Raj (0482-2202195)</li>
             <li>Dr. Arun Cyril Jose (0482-2202159)</li>
             <li>Dr. Divya Sindhu Lekha (0482-2202161)</li>
             <li>Dr. Gayathri G. R (0482-2202184)</li>
             <li>Dr. Jayakrushna Sahoo (0482-2202190)</li>
-            <li>Josit Mariya (0482-2202203)</li>
+            <li>Dr. Josit Mariya (0482-2202203)</li>
           </ul>
         </div>
         <div className="section">
