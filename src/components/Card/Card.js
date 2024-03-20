@@ -1,7 +1,7 @@
 import React from "react";
 import "./card.css";
-import linkedin from "../../assets/icons/linkedin.svg";
-import mail from "../../assets/icons/mail.svg";
+import linkedin from "../../assets/icons/linkedin1.svg";
+import mail from "../../assets/icons/mail1.svg";
 
 const Card = (props) => {
   const { PhDScholars, MTech, UG } = props;

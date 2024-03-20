@@ -35,22 +35,22 @@
 }
 
 .project-table th {
-  background-color: #001257; 
+  background-color: #750616; 
   text-transform: uppercase;
   font-size: 14px;
-  color: #bfd7ee; 
+  color: #ffffff; 
 }
 
 .project-table tbody tr:nth-child(even) {
-  background-color: #9ec8ff;
+  background-color: #ffbbc5;
 }
 .project-table tbody tr:nth-child(odd) {
-  background-color: #bbcee8;
+  background-color: #fad2d8;
 }
 
 
 .project-table tbody tr:hover td {
-  background-color: #001257!important;
+  background-color: #750616 !important;
   color: white;   
 }
 
