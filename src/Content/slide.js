@@ -1,6 +1,6 @@
 const slides = [
   {
-    name: "banner1.png",
+    name: "banner2.png",
   },
   {
     name: "visit1.jpeg",

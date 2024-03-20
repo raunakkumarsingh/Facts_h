@@ -16,11 +16,11 @@
   max-width: 300px;
   height: auto;
   box-sizing: border-box;
-  background-color:#d7f1fa;
+  background-color:#fad2d8;
 
   border-radius: 25px;
-  background: #d7f1fa;
-  box-shadow: 10px 10px 30px #8b8cd3, -10px -10px 30px #d7f1fa;
+  background: #fad2d8;
+  box-shadow: 10px 10px 30px #8b8cd3, -10px -10px 30px #b391cc;
 }
 
 .card-image {
@@ -44,7 +44,7 @@
 
 .more-info {
   margin-top: 10px;
-  background-color: #d7f1fa;
+  background-color: #fad2d8;
   padding: 10px;
   border: 1px solid #d7f1fa;
 }
