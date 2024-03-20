@@ -1,5 +1,5 @@
 .lab-component {
-    background-color: #a3a5f8 !important;
+    background-color: white !important;
     /* border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     padding: 20px;
@@ -7,8 +7,8 @@
     flex: 1 1 300px;
 
     border-radius: 50px;
-  background: #a3a5f8;
-  box-shadow: 20px 20px 60px #8b8cd3, -20px -20px 60px #bbbeff;
+  background: white;
+  box-shadow: 20px 20px 60px #ffffff, -20px -20px 60px white;
   }
 
   

@@ -31,9 +31,9 @@
     width: 100%;
     padding: 20px;
     margin: 10px;
-    background-color: #a7b3ff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 10px 10px 30px #d7f1fa, -10px -10px 30px #d7f1fa;
   }
   
   .contact-card h2 {

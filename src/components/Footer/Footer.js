@@ -15,7 +15,7 @@ const Footer = () => {
         <p>Indian Institute of Information Technology Kottayam,</p>
 <p>Valavoor.P.O, Pala, Kottayam,</p>
 <p>Kerala, India-686635</p>
-        <p>Phone: +91-0482-2202151</p>
+        {/* <p>Phone: +91-0482-2202151</p> */}
       </div>
       <div className="footer-icons">
         <a href="mailto:info@example.com"><i className="fa fa-envelope"></i></a>
