@@ -9,6 +9,11 @@ function People() {
       <Card ProfileData={ProfileData.Faculty} type="1"/>
       <Heading content="PHD Scholars" />
       <Card ProfileData={ProfileData.PhDScholars} type="0"/>
+      <Heading content="International Collaborators" />
+      <Card ProfileData={ProfileData.International_Collaborators} type="0"/>
+      <Heading content="Industry Experts" />
+      <Card ProfileData={ProfileData.Industry_Experts} type="0"/>
+
       <Heading content="M.Tech Students" />
       <Card ProfileData={ProfileData.MTech} type="0"/>
       <Heading content="UG Students" />

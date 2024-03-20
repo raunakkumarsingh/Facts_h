@@ -363,6 +363,28 @@ const ProfileData = {
       position: "Software engineer @QBurst",
     },
   ],
+  International_Collaborators: [
+    {
+      name:"Prof. Petra Ahrweiler",
+      linkedin:"https://www.linkedin.com/in/petra-ahrweiler-95b9423/",
+      image:"petra.png",
+      position:"Johannes Gutenberg University Mainz, Germany"
+    }
+  ],
+  Industry_Experts: [
+    {
+      name:"Jibu Elias",
+      linkedin:"",
+      image:"jibu.png",
+      position:"INDIA Al,Nasscom"
+    },
+    {
+      name:"Supriya Bhuwalka",
+      linkedin:"",
+      image:"supriya.png",
+      position:"Founder, Coding and More"
+    }
+  ]
 };
 
 export default ProfileData;
