@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
       </Link>
       <div className={`nav-items ${isOpen ? "open" : ""} d-flex `}>
-        <Link to="/home"><strong>Home</strong></Link>
+        <Link onClick={() => setIsOpen(!isOpen)}  to="/home"><strong>Home</strong></Link>
         {/* <Link to="/whyfactsh"><strong >WhyFACTS-H</strong></Link> */}
         <Link onClick={() => setIsOpen(!isOpen)} to="/vision"><strong>Vision</strong></Link>
         <Link onClick={() => setIsOpen(!isOpen)} to="/fundproject"><strong>Projects</strong></Link>

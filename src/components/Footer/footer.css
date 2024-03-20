@@ -12,9 +12,12 @@
   margin-bottom: 20px;
 }
 
-.logo-left,
-.logo-right {
+.logo-left {
   max-width: 100px;
+  height: auto;
+}
+.logo-right {
+  max-width: 150px;
   height: auto;
 }
 
