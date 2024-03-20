@@ -45,7 +45,7 @@ const ImageSlider = ({ slides }) => {
         {slides.map((slide, index) => (
           <div
             key={index}
-            className={`carousel-item ${
+            className={`carousel-item${
               index === currentSlide ? "active" : ""
             }`}
           >
