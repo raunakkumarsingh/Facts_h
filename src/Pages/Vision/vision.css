@@ -1,21 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  .pro {
-    text-align: center;
-    padding: 20px;
-  }
-  
-
-  
-  .lab-info {
-    /* background-color: #a3a5f8; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.pro {
+  text-align: center;
+  padding: 20px;
+}
+.lab-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

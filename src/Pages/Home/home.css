@@ -4,7 +4,7 @@
   justify-content: space-evenly;
 }
 
-.lab-component {
+.obj-component {
   background-color: #ffffff;
 
   padding: 20px;
@@ -12,15 +12,14 @@
   flex: 1 1 300px;
 
   border-radius: 50px;
-  background: #ffffff;
-  box-shadow: 10px 10px 30px #d7f1fa, -10px -10px 30px #d7f1fa;
+  background: white;
+  box-shadow: 20px 20px 60px #b391cc, -20px -20px 60px #b391cc;
 }
 
-.lab-component h2 {
+.obj-component h2 {
   color: #010c3d;
 }
 
-.lab-component p {
+.obj-component p {
   color: #000000;
 }
-

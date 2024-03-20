@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import logo from '../../assets/icons/logo1.png';
+import logo from '../../assets/icons/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="Navbar fixed-top">
       <Link to="/">
         <div className="nav-logo strong-text">
-          <img src={logo} className="logo" alt="Logo"  />
+          <img  src={logo} className="logo rounded-circle" alt="Logo"  />
           FACTS-H LAB
         </div>
       </Link>

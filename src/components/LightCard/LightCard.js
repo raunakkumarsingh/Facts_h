@@ -1,4 +1,5 @@
 import React from 'react'
+import './LightCard.css'
 
 const LightCard = ({ title, description }) => {
     return (

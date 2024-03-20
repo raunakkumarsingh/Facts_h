@@ -10,7 +10,7 @@ import "./home.css";
 
 const ObjectiveCard = ({ title, description }) => {
   return (
-    <div className="lab-component">
+    <div className="obj-component">
       <h3>{title}</h3>
       <ul>
         {description.map((point, index) => (
