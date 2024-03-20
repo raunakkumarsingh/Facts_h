@@ -9,6 +9,9 @@ const slides = [
     name: "lab1.png"
   },
   {
+    name: "iiitkottayam3.jpg",
+  },
+  {
     name: "iiitkottayam1.png",
   },
 ];
