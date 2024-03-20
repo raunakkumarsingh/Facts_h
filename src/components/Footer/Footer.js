@@ -17,15 +17,14 @@ const Footer = () => {
 <p>Kerala, India-686635</p>
         <p>Phone: +91-0482-2202195</p>
       </div>
-      <div className="footer-icons">
+      {/* <div className="footer-icons">
         <a href="mailto:info@example.com"><i className="fa fa-envelope"></i></a>
         <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
         <a href="https://www.facebook.com/yourpage" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
        
-      </div>
-      <div className="footer-copyright">
-        <p>&copy; Copyright © 2024 All Rights Reserved.</p>
-      </div>
+      </div> */}
+      
+        <center>&copy; Copyright © 2024 All Rights Reserved.</center>
     </footer>
   );
 };

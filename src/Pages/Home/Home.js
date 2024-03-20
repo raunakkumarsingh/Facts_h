@@ -51,7 +51,9 @@ function Home() {
       </div>
 
       <Heading content="Faculty Members" />
+      <div className="container" > 
       <Card ProfileData={ProfileData.Faculty} type="1" />
+      </div>
     </div>
   );
 }
