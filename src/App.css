@@ -11,7 +11,7 @@ margin-top: 70px;
 }
 
 body{
-  background-color: #dbdeff;
+  background-color: white !important;
   font-family: "Trebuchet MS" , Verdana, Helvetica, Sans-Serif !important;
   
 }
@@ -42,9 +42,7 @@ code {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {

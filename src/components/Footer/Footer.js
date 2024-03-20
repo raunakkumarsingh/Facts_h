@@ -1,8 +1,8 @@
 // Footer.js
 import React from 'react';
 import './footer.css'; 
-import logo from '../../assets/icons/logo.png'
-import iiitklogo from '../../assets/icons/IIITK_logo.png'
+import logo from '../../assets/icons/logo1.png'
+import iiitklogo from '../../assets/icons/IIITK_logo1.png'
 
 const Footer = () => {
   return (
