@@ -44,13 +44,13 @@
 
 
 @media only screen and (max-width: 768px) {
-  .imgs {
-    height: 350px;
+  .slide img{
+    aspect-ratio: 786/350 ;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .imgs {
-    height: 50%;
+  .slide img {
+    aspect-ratio: 1.5/1;
   }
 }
