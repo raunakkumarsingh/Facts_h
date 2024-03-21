@@ -43,3 +43,14 @@
 }
 
 
+@media only screen and (max-width: 768px) {
+  .imgs {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .imgs {
+    height: 50%;
+  }
+}
