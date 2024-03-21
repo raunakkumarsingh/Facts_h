@@ -12,15 +12,15 @@
   flex: 1 1 45%;
   margin: 10px;
   padding: 16px;
-  color: #010c3d;
+  color: #750616;
   max-width: 300px;
   height: auto;
   box-sizing: border-box;
-  background-color:#fad2d8;
+  background-color:#d19ea4;
 
   border-radius: 25px;
   background: #fad2d8;
-  box-shadow: 10px 10px 30px #8b8cd3, -10px -10px 30px #b391cc;
+  box-shadow: 10px 10px 30px #fff5e7, -10px -10px 30px #bfa5a3;
 }
 
 .card-image {
