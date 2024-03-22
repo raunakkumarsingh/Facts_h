@@ -3,30 +3,35 @@
   background: #750616;
   color: white;
   /* padding: 5px; */
+  width: 100%;
   text-align: center;
-  height: 250px;
+  padding: 10px;
+  height: 200px;
   position: -webkit-sticky;
   position: sticky;
   /* margin: -9px; */
+  display: flex;
+  justify-content: space-between;
   
 }
 
 .footer-logos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
  
 }
 
 .logo-left {
   max-width: 6em;
+  max-height: 6em;
   padding:2px;
   height: auto;
 }
 .logo-right {
   max-width: 10em;
-  max-height: auto;
+  max-height: 6em;
   padding: 2px;
-  height: auto;
+
 }
 
 
