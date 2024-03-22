@@ -24,7 +24,7 @@ const Contact = () => {
     </div>
     <div className="contact-container">
       <div className="contact-card">
-        <h2>Center For FACTS H Lab</h2>
+        <h2>FACTS&minus;H&nbsp;Lab</h2>
         <div className="contact-info">
           <p><strong>Phone:</strong> +91-0482-2202195</p>
           <p><strong>Email:</strong> ebindeniraj@iiitkottayam.ac.in</p>

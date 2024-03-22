@@ -5,7 +5,7 @@ import Heading from "../../components/Heading/Heading";
 import ObjectiveData from "../../Content/objective";
 import ProfileData from "../../Content/ProfileData";
 import slides from "../../Content/slide";
-import barcode from "../../assets/icons/barcode.png"
+import internpdf from "../../assets/images/Internship.pdf";
 import "./home.css";
 
 const ObjectiveCard = ({ title, description }) => {
@@ -21,13 +21,16 @@ const ObjectiveCard = ({ title, description }) => {
   );
 };
 
-
-
 function Home() {
   console.log(ProfileData);
   return (
-    <div>
-      <ImageSlider slides={slides} />
+    <div >
+      <div className="slider-container">
+        <ImageSlider slides={slides} />
+      </div>
+      <a href={internpdf} target="_blank" rel="noreferrer">
+      <marquee className="marq-css">Call For Summer Internships 2024 FACTS-H Lab </marquee> 
+                    </a>
       <div className="text-center mx-2 p-10">
         <Heading content="Welcome to the FACTS-H Lab" />
       </div>
@@ -59,7 +62,3 @@ function Home() {
 }
 
 export default Home;
-
-
-
-
