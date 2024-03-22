@@ -6,7 +6,7 @@
   width: 100%;
   text-align: center;
   padding: 10px;
-  height: 200px;
+  height: 20%;
   position: -webkit-sticky;
   position: sticky;
   /* margin: -9px; */
@@ -43,6 +43,9 @@
 .footer-icons a {
   color: #fff;
   text-decoration: none;
+}
+.footer-address{
+  width: fit-content;
 }
 
 .footer-copyright {
