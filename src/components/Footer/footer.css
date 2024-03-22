@@ -1,12 +1,13 @@
 /* Footer.css */
 .footer-container {
-  background-color: #750616;
+  background: #750616;
   color: white;
-  padding: 18px;
+  /* padding: 5px; */
   text-align: center;
-  height: 300px;
+  height: 250px;
   position: -webkit-sticky;
   position: sticky;
+  margin: -9px;
   
 }
 
@@ -21,13 +22,11 @@
   height: auto;
 }
 .logo-right {
-  max-width: 9em;
+  max-width: 10em;
   height: auto;
 }
 
-.footer-address {
-  
-}
+
 
 .footer-icons {
   font-size: 24px;

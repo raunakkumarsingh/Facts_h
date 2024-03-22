@@ -31,7 +31,7 @@ function Home() {
       <div className="text-center mx-2 p-10">
         <Heading content="Welcome to the FACTS-H Lab" />
       </div>
-      <h4 className="text-center mx-5 mb-5">
+      <h4 className="text-center mx-5 mb-5 tx-color">
         We are dedicated to Advancing Responsible, Transparent, and Secure
         Computing. With a focus on fairness, accountability, and transparency,
         our lab integrates sociological and humanistic insights into computing
