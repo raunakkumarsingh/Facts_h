@@ -3,7 +3,7 @@
   height: 100%;
 }
 .slide {
-  
+  width: 100% !important;
   border-radius: 10px;
   background-size: cover;
   background-position: center;

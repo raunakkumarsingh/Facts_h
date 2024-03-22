@@ -7,9 +7,9 @@ import iiitklogo from '../../assets/icons/IIITK_logo1.png'
 const Footer = () => {
   return (
     <footer className="footer-container">
-      <div className="footer-logos">
-       <img src={logo} alt="Left Logo" className="logo-left" />
-        <img src={iiitklogo} alt="Right Logo" className="logo-right" />
+      <div className="footer-logos mx-2">
+       <img src={logo} alt="Left Logo" className="logo-left my4" />
+        <img src={iiitklogo} alt="Right Logo" className="logo-right my-1" />
       </div>
       <div className="footer-address">
         <p>Indian Institute of Information Technology Kottayam,</p>
