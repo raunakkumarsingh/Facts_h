@@ -9,9 +9,9 @@
   border: 1px solid #ddd;
   margin-top: 20px;
 
-  border-radius: 10px;
-  background: #a3a5f8;
-  box-shadow: 10px 10px 30px #8b8cd3, -10px -10px 30px #bbbeff;
+  border-radius: 50px;
+  background: #bfa5a3;
+  box-shadow: 10px 10px 30px #fff5e7, -10px -10px 30px #bfa5a3;
 }
 
 .papers-table th,
@@ -46,7 +46,7 @@
 
 .papers-table tbody td {
   font-size: 20px;
-  color: #555;
+  color: #000000;
 }
 .papers-table tbody td {
   padding: 30px;

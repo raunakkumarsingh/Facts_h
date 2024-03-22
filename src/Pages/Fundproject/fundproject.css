@@ -23,9 +23,9 @@
   width: 100%;
   border: 2px solid #ddd;
   margin-top: 20px;
-  border-radius: 10px;
-  background: #a3a5f8;
-  box-shadow: 10px 10px 30px #8b8cd3, -10px -10px 30px #bbbeff;
+  border-radius: 50px;
+  background: #bfa5a3;
+  box-shadow: 10px 10px 30px #fff5e7, -10px -10px 30px #bfa5a3;
 }
 
 .project-table th,
@@ -43,9 +43,11 @@
 
 .project-table tbody tr:nth-child(even) {
   background-color: #ffbbc5;
+
 }
 .project-table tbody tr:nth-child(odd) {
   background-color: #fad2d8;
+ 
 }
 
 
@@ -56,7 +58,7 @@
 
 .project-table tbody td {
   font-size: 20px;
-  color: #555;
+  color: #000000;
 }
 
 .project-table tbody tr {
