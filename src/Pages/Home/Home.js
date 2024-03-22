@@ -29,7 +29,7 @@ function Home() {
         <ImageSlider slides={slides} />
       </div>
       <a href={internpdf} target="_blank" rel="noreferrer">
-      <marquee className="marq-css">Call For Summer Internships 2024 FACTS-H Lab </marquee> 
+      <marquee className="marq-css">Click here to apply for Summer Internships 2024 at FACTS-H Lab. | Mode of Internship: Hybrid. | Duration: 8 to 12 weeks. | Application Deadline: April 5, 2024. | Internship Commences on: April 22, 2024. | For Undergraduates: B.Tech./B.E./B.Sc./BCA/B.A.  | For Postgraduates: M.Tech./M.E./M.Sc./MCA/M.A. |</marquee> 
                     </a>
       <div className="text-center mx-2 p-10">
         <Heading content="Welcome to the FACTS-H Lab" />
