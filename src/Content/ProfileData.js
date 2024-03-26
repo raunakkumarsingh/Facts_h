@@ -221,6 +221,18 @@ const ProfileData = {
       position: "CSE",
     },
     {
+      name: "Raunak Kumar Singh",
+      linkedin: "https://www.linkedin.com/in/raunak554/",
+      image: "raunak.png",
+      position: "CSE",
+    },
+    {
+      name: "Jasmin Bheda",
+      linkedin: "https://www.linkedin.com/in/jasmin-bheda-407419202",
+      image: "jasmin.jpeg",
+      position: "CSE",
+    },
+    {
       name: "Maitri Deepak Savla",
       linkedin: "https://www.linkedin.com/in/maitri-savla-a5544b229",
       image: "MAITRI_DEEPAK_SAVLA.png",
