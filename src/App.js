@@ -12,15 +12,18 @@ import People from './Pages/People/People';
 import Publication from './Pages/Publication/Publication'
 import FundProject from './Pages/Fundproject/FundProject';
 import Gallery from './Pages/Gallery/Gallery';
+import { createBrowserHistory } from 'history';
+const browserHistory = createBrowserHistory();
 const App = () => {
+
   return (
-    <Router>
+    <Router history={browserHistory}>
       <div className='app-container'>
       <Navbar />
       <div className='extra-margin'></div>
       </div>
-      <Routes>
-        <Route path="/" element={ <Home/> } />
+      <Routes >
+        <Route path="/" element={ <Home/> } /> 
         <Route path="/Home" element={ <Home/> } />
         <Route path="/Vision" element={ <Vision/> } />
         <Route path="/whyfactsh" element={ <Why/> } /> 

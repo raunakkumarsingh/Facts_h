@@ -8,7 +8,7 @@ const collaborator =[{
 },
 {
     name:"iiit palakkad",
-    image:"iit palakkad.jpeg"
+    image:"iit_palakkad.jpeg"
 },
 
 ]

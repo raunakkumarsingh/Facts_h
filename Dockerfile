@@ -1,27 +1,33 @@
-# Fetching the latest node image on apline linux
-FROM node:alpine AS builder
+# Stage 1: Building the application
+FROM node:20-alpine AS builder
 
-# Declaring env
-ENV NODE_ENV production
+# Set environment variables
+ENV NODE_ENV=production
 
-# Setting up the work directory
+# Set working directory
 WORKDIR /app
 
-# Installing dependencies
-COPY ./package.json ./
-RUN npm install
+# Copy package.json and package-lock.json files
+COPY package*.json ./
 
-# Copying all the files in our project
+# Install dependencies
+RUN npm install --silent
+
+# Copy the entire project
 COPY . .
 
-# Building our application
-RUN npm run build
+# Build the application
+RUN npm update && npm run build
 
-# Fetching the latest nginx image
-FROM nginx
 
-# Copying built assets from builder
-COPY --from=builder /app/build /usr/share/nginx/html
+# Stage 2: Serving the application
+FROM nginx:1.23-alpine
 
-# Copying our nginx.conf
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Set working directory
+WORKDIR /usr/share/nginx/html
+
+# Remove default nginx contents
+RUN rm -rf ./*
+
+# Copy build files from the builder stage
+COPY --from=builder /app/build .
