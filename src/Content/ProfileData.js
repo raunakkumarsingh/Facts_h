@@ -262,6 +262,12 @@ const ProfileData = {
       image: "kashyap_chandra.png",
       position: "CSE",
     },
+    {
+      name: "Hardik Somkuwar",
+      linkedin: "https://www.linkedin.com/in/hardik-somkuwar-761aa921b/",
+      image: "SOMKUWAR_HAR_DIKPRAKASH.jpg",
+      position: "CSE",
+    },
   ],
   Interns: [
     {
