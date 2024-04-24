@@ -38,10 +38,11 @@ const Internship = () => {
         <div className="section">
           <h3>Benefits</h3>
           <ul>
-            <li>Best internships (evaluated on outcome basis) will be provided scholarships</li>
+            <li>Internships offer scholarships, participation in FACTS-H Lab's international projects, access to its high-end computing facility, and a certificate upon completion.</li>
+            {/* <li>Best internships (evaluated on outcome basis) will be provided scholarships</li>
             <li>Opportunity to be part of International projects of FACTS-H Lab</li>
             <li>Access to use the High-end computing facility in FACTS-H LAB.</li>
-            <li>You will get the certificate for the internship</li>
+            <li>You will get the certificate for the internship</li> */}
           </ul>
         </div>
       </div>
