@@ -5,7 +5,7 @@ import Heading from "../../components/Heading/Heading";
 import ObjectiveData from "../../Content/objective";
 import ProfileData from "../../Content/ProfileData";
 import slides from "../../Content/slide";
-import internpdf from "../../assets/images/Internship.pdf";
+import internpdf from "../../assets/images/publishedpaper.pdf";
 import "./home.css";
 
 const ObjectiveCard = ({ title, description }) => {
@@ -29,7 +29,8 @@ function Home() {
         <ImageSlider slides={slides} />
       </div>
       <a href={internpdf} target="_blank" rel="noreferrer">
-      <marquee className="marq-css">Click here to apply for Summer Internships 2024 at FACTS-H Lab. | Mode of Internship: Hybrid. | Duration: 8 to 12 weeks. | Application Deadline: April 5, 2024. | Internship Commences on: April 22, 2024. | For Undergraduates: B.Tech./B.E./B.Sc./BCA/B.A.  | For Postgraduates: M.Tech./M.E./M.Sc./MCA/M.A. </marquee> 
+      <marquee className="marq-css">Congratulations to Dr. Josit Mariya!
+We are thrilled to announce that Dr. Josit Mariya's Virtual Presentation proposal, "The Suicidal Reading of Sylvia Plath’s Selected Works Under the Theoretical Framework of Durkheim’s Suicide Theory," has been accepted for Asian Conference on Arts & Humanities 2024 Tokyo, Japan. </marquee> 
                     </a>
       <div className="text-center mx-2 p-10">
         <Heading content="Welcome to the FACTS-H Lab" />

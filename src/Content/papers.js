@@ -1,5 +1,13 @@
 const papers = [
   {
+    "authors": ["Mahesh Sasikumar", "Ebin Deni Raj"],
+    "title": "A short survey on Interpretable techniques with Time series data.",
+    "conference": "2024 IEEE International Students' Conference on Electrical, Electronics and Computer Science (SCEECS)",
+    "pages": "pp. 1-10",
+    "publisher": "IEEE",
+    "year": 2024
+  },
+  {
     "authors": ["Ashly Ann Jo", "Caina Rose Paul", "S. Arundhathi Nair", "Jeena Thomas", "Ebin Deni Raj"],
     "title": "Tabular Data Interpretation on COVID-19 Through Explainable Machine Learning.",
     "conference": "International Conference on Emerging Trends and Technologies on Intelligent Systems",

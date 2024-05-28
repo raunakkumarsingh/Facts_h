@@ -29,7 +29,7 @@ const App = () => {
         <Route path="/Vision" element={ <Vision/> } />
         <Route path="/whyfactsh" element={ <Why/> } /> 
         <Route path="/fundproject" element={ <FundProject/> } /> 
-        <Route path="/intern" element={ <Intern/> } /> 
+        {/* <Route path="/intern" element={ <Intern/> } />  */}
         <Route path="/publication" element={ <Publication/> } /> 
         <Route path="/contact" element={ <Contact/> } />
         <Route path="/gallery" element={ <Gallery/> } />
