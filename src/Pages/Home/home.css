@@ -42,6 +42,7 @@
 .side-by-side-container {
   display: flex;
   align-items: flex-start; /* Adjust this based on vertical alignment needs */
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
 }
 
 .side-by-side-container h4 {
@@ -51,4 +52,15 @@
 
 .side-by-side-container .latest-news-container {
   flex: 1; /* Adjust the value as needed to control the width */
+}
+
+@media (max-width: 768px) {
+  .side-by-side-container {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  .side-by-side-container h4 {
+    margin-right: 0; /* Remove the right margin when stacked */
+    margin-bottom: 20px; /* Add a bottom margin for spacing */
+  }
 }

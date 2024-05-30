@@ -10,7 +10,7 @@ const News = [
         "description":"Accepted"
        },
        {
-        "news":"Ashly Ann Jo and Ebin Deni Raj's paper on \"Ethical Dimensions in Data-Driven Business\" is accepted for the 2024 ICCCNT conference.",
+        "news":"Ashly Ann Jo and Ebin Deni Raj's paper on \"Ethical Dimensions in Data-Driven Business\" is accepted for the 15th International IEEE Conference On Computing, Communication And Networking Technologies 2024.",
         "link":"",
         "description":"Accepted"
        }
