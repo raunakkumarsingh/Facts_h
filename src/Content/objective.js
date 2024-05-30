@@ -16,6 +16,7 @@ const objectives = [
         "Explainable Machine Learning: Focus on methods and tools that make AI decisions transparent and understandable.",
         "Social and Humanistic AI Studies: Explore the societal, ethical, and cultural dimensions of AI."
       ]
-    }
+    },
+   
   ];
   export default objectives

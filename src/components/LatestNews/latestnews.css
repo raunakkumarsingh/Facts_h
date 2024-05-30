@@ -1,0 +1,25 @@
+.obj-component {
+    background-color: #fff5e7;
+    padding: 20px;
+    margin: 20px;
+    flex: 1 1 300px;
+    border-radius: 50px;
+    background: #fad2d8;
+    box-shadow: 20px 20px 60px #fff5e7, -20px -20px 60px #bfa5a3;
+  }
+  
+  .obj-component ul {
+    color: #000000;
+  }
+  .obj-component a{
+    text-decoration: none;
+    color: #000000;
+  }
+  .tx-color{
+    color: #000000;
+  }
+  .marq-css{
+    background-color: #d19ea4;
+    color: #000000;
+    font-size: 20px;
+  }

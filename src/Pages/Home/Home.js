@@ -7,19 +7,9 @@ import ProfileData from "../../Content/ProfileData";
 import slides from "../../Content/slide";
 import internpdf from "../../assets/images/publishedpaper.pdf";
 import "./home.css";
-
-const ObjectiveCard = ({ title, description }) => {
-  return (
-    <div className="obj-component">
-      <h3>{title}</h3>
-      <ul>
-        {description.map((point, index) => (
-          <li key={index}>{point}</li>
-        ))}
-      </ul>
-    </div>
-  );
-};
+import LatestNews from "../../components/LatestNews/LatestNews";
+import News from "../../Content/LatestNews";
+import ObjectiveCard from "../../components/ObjectiveCard/ObjectiveCard";
 
 function Home() {
   console.log(ProfileData);
@@ -53,7 +43,11 @@ We are thrilled to announce that Dr. Josit Mariya's Virtual Presentation proposa
           ))}
         </div>
       </div>
-
+      <div className="container">
+        <div className="lab-info">
+          <LatestNews News={News}/>
+        </div>
+        </div>
       <Heading content="Faculty Members" />
       <div className="container" > 
       <Card ProfileData={ProfileData.Faculty} type="1" />
