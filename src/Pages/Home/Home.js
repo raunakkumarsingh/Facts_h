@@ -21,6 +21,7 @@ function Home() {
       {/* <a href={internpdf} target="_blank" rel="noreferrer"> */}
       <marquee className="marq-css">Congratulations to Dr. Josit Mariya!
 We are thrilled to announce that Dr. Josit Mariya's Virtual Presentation proposal, "The Suicidal Reading of Sylvia Plath’s Selected Works Under the Theoretical Framework of Durkheim’s Suicide Theory," has been accepted for Asian Conference on Arts & Humanities 2024 Tokyo, Japan. </marquee> 
+<LatestNews News={News}/>
                     {/* </a> */}
       <div className="text-center mx-2 p-10">
         <Heading content="Welcome to the FACTS-H Lab" />
@@ -45,7 +46,6 @@ We are thrilled to announce that Dr. Josit Mariya's Virtual Presentation proposa
       </div>
       <div className="container">
         <div className="lab-info">
-          <LatestNews News={News}/>
         </div>
         </div>
       <Heading content="Faculty Members" />
