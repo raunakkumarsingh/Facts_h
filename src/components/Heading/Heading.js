@@ -6,7 +6,7 @@ import './Heading.css';
 const Heading = ({ content }) => {
   return (
     <div className="heading-container">
-      <h1 className="heading-content">{content}</h1>
+      <h2 className="heading-content">{content}</h2>
     </div>
   );
 };

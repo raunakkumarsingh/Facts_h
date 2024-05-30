@@ -1,6 +1,6 @@
 /* Common styles */
 .Navbar {
-  height: 70px;
+  height: 60px;
   overflow: visible;
   display: flex;
   justify-content: space-between;

@@ -3,7 +3,7 @@
   height: 100%;
 }
 .slide {
-  width: 80% !important;
+  width: 70% !important;
   border-radius: 10px;
   background-size: cover;
   background-position: center;
@@ -11,7 +11,7 @@
 }
 .slide img{
   border-radius: 10px;
-  width: 100%;
+  width: 80%;
   aspect-ratio: 3/1;
 }
 

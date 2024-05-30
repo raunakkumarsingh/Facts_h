@@ -20,19 +20,23 @@ function Home() {
       </div>
       {/* <a href={internpdf} target="_blank" rel="noreferrer"> */}
       <marquee className="marq-css">Congratulations to Dr. Josit Mariya!
-We are thrilled to announce that Dr. Josit Mariya's Virtual Presentation proposal, "The Suicidal Reading of Sylvia Plath’s Selected Works Under the Theoretical Framework of Durkheim’s Suicide Theory," has been accepted for Asian Conference on Arts & Humanities 2024 Tokyo, Japan. </marquee> 
-<LatestNews News={News}/>
-                    {/* </a> */}
-      <div className="text-center mx-2 p-10">
+        We are thrilled to announce that Dr. Josit Mariya's Virtual Presentation proposal, "The Suicidal Reading of Sylvia Plath’s Selected Works Under the Theoretical Framework of Durkheim’s Suicide Theory," has been accepted for Asian Conference on Arts & Humanities 2024 Tokyo, Japan. </marquee>
+      {/* </a> */}
+      <div className="text-center  p-2">
         <Heading content="Welcome to the FACTS-H Lab" />
       </div>
-      <h4 className="text-center mx-5 mb-5 tx-color">
-        We are dedicated to Advancing Responsible, Transparent, and Secure
-        Computing. With a focus on fairness, accountability, and transparency,
-        our lab integrates sociological and humanistic insights into computing
-        solutions. Let's delve into how our interdisciplinary team and research
-        areas are shaping the future of technology.
-      </h4>
+      <div className="side-by-side-container">
+        <h4 className="text-center my-5 mb-5 tx-color">
+          We are dedicated to Advancing Responsible, Transparent, and Secure
+          Computing. With a focus on fairness, accountability, and transparency,
+          our lab integrates sociological and humanistic insights into computing
+          solutions. Let's delve into how our interdisciplinary team and research
+          areas are shaping the future of technology.
+        </h4>
+        <div className="latest-news-container">
+          <LatestNews News={News} />
+        </div>
+      </div>
       <div className="container">
         <div className="lab-info">
           {ObjectiveData.map((item, index) => (
@@ -47,10 +51,10 @@ We are thrilled to announce that Dr. Josit Mariya's Virtual Presentation proposa
       <div className="container">
         <div className="lab-info">
         </div>
-        </div>
+      </div>
       <Heading content="Faculty Members" />
-      <div className="container" > 
-      <Card ProfileData={ProfileData.Faculty} type="1" />
+      <div className="container" >
+        <Card ProfileData={ProfileData.Faculty} type="1" />
       </div>
     </div>
   );
