@@ -1,6 +1,6 @@
 const News = [
        {
-        "news":"1.	Mahesh Sasikumar, and Ebin Deni Raj. \"A short survey on Interpretable techniques with Time series data.\" In 2024 IEEE International Students' Conference on Electrical, Electronics and Computer Science (SCEECS), pp. 1-10. IEEE, 2024.",
+        "news":"Mahesh Sasikumar, and Ebin Deni Raj. \"A short survey on Interpretable techniques with Time series data.\" In 2024 IEEE International Students' Conference on Electrical, Electronics and Computer Science (SCEECS), pp. 1-10. IEEE, 2024.",
         "link":"",
         "description":"Published"
        },
