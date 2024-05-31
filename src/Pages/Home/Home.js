@@ -22,10 +22,11 @@ function Home() {
       <marquee className="marq-css">Congratulations to Dr. Josit Mariya!
         We are thrilled to announce that Dr. Josit Mariya's Virtual Presentation proposal, "The Suicidal Reading of Sylvia Plath’s Selected Works Under the Theoretical Framework of Durkheim’s Suicide Theory," has been accepted for Asian Conference on Arts & Humanities 2024 Tokyo, Japan. </marquee>
       {/* </a> */}
+          <LatestNews News={News} />
       <div className="text-center  p-2">
         <Heading content="Welcome to the FACTS-H Lab" />
       </div>
-      <div className="side-by-side-container">
+      {/* <div className="side-by-side-container"> */}
         <h4 className="text-center my-5 mb-5 tx-color">
           We are dedicated to Advancing Responsible, Transparent, and Secure
           Computing. With a focus on fairness, accountability, and transparency,
@@ -33,10 +34,9 @@ function Home() {
           solutions. Let's delve into how our interdisciplinary team and research
           areas are shaping the future of technology.
         </h4>
-        <div className="latest-news-container">
-          <LatestNews News={News} />
-        </div>
-      </div>
+        {/* <div className="latest-news-container">
+        </div> */}
+      {/* </div> */}
       <div className="container">
         <div className="lab-info">
           {ObjectiveData.map((item, index) => (
