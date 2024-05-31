@@ -7,7 +7,7 @@ import faqData from '../../Content/faqData';
 const Internship = () => {
   return (
     <div className="page-container">
-      {/* <h1 className="text-center my-4"> Call for Summer Internships 2024 FACTS-H Lab</h1> */}
+      <h1 className="text-center my-4"> Call for Summer Internships 2024 FACTS-H Lab</h1>
       {/* <h5 className="text-center">Fair and Accountable, Computing solutions that are Transparent with Sociological and Humanistic Insights</h5> */}
       
       
@@ -135,9 +135,13 @@ function Intern() {
   return (
     <div className="container">
       <Heading content="Internship"/>
-      <Internship />
+      <h3>  Registration cycle will be open from November - December.</h3>
+      <div style={{ height: '50vh'}}>
+      </div>
+
+      {/* <Internship />
       <Heading content="Internship FAQs"/>
-      <FAQ faqData={faqData} />
+      <FAQ faqData={faqData} /> */}
     </div>
   );
 }

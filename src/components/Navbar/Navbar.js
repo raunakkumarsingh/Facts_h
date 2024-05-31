@@ -19,7 +19,7 @@ const Navbar = () => {
         {/* <Link to="/whyfactsh"><strong >WhyFACTS-H</strong></Link> */}
         <Link onClick={() => setIsOpen(!isOpen)} to="/vision"><strong>Vision</strong></Link>
         <Link onClick={() => setIsOpen(!isOpen)} to="/fundproject"><strong>Projects</strong></Link>
-        {/* <Link onClick={() => setIsOpen(!isOpen)} to="/intern"><strong>Internship</strong></Link> */}
+        <Link onClick={() => setIsOpen(!isOpen)} to="/intern"><strong>Internship</strong></Link>
         <Link onClick={() => setIsOpen(!isOpen)} to="/publication"><strong>Publications</strong></Link>
         <Link onClick={() => setIsOpen(!isOpen)} to="/people"><strong>People</strong></Link>
         <Link onClick={() => setIsOpen(!isOpen)} to="/gallery"><strong>Gallery</strong></Link>
