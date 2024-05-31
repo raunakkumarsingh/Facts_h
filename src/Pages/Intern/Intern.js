@@ -135,13 +135,9 @@ function Intern() {
   return (
     <div className="container">
       <Heading content="Internship"/>
-      <h3>  Registration cycle will be open from November - December.</h3>
-      <div style={{ height: '58vh'}}>
-      </div>
-
-      {/* <Internship />
+      <Internship />
       <Heading content="Internship FAQs"/>
-      <FAQ faqData={faqData} /> */}
+      <FAQ faqData={faqData} />
     </div>
   );
 }
