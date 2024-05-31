@@ -136,7 +136,7 @@ function Intern() {
     <div className="container">
       <Heading content="Internship"/>
       <h3>  Registration cycle will be open from November - December.</h3>
-      <div style={{ height: '50vh'}}>
+      <div style={{ height: '58vh'}}>
       </div>
 
       {/* <Internship />
